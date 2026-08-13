@@ -1,0 +1,27 @@
+body {
+    background-color:#DCD4C1;
+    font-family: Aboreto, display, sans-serif;
+}
+
+div#container {
+    color: #5A5A5A;
+    text-align: center;
+    font-size: 1em;
+}
+
+.navbar {
+    font-family: Antic Didone, display, sans-serif;
+    text-align: right;
+}
+ul {
+    list-style-type: none;
+}
+
+#banner {
+    font-family: Aboreto, display, sans-serif;
+    text-align: left;
+    font-size: 2em;
+    color: #5A5A5A;
+    padding-left: 20px;
+}
+
