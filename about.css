@@ -1,0 +1,93 @@
+body{
+    background-color:#DCD4C1;
+    font-family: Aboreto, sans-serif;
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+div#half{
+    color: #5A5A5A;
+    text-align: center;
+    font-size: 1em;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 30px 1px 20px;
+}
+
+#banner {
+    font-family: Aboreto, sans-serif;
+    font-size: 3em;
+    line-height: 1;
+    margin-left: 40px;
+}
+
+#banner a {
+    text-decoration: none;
+    color: #5A5A5A;
+}
+
+.navbar {
+    text-align: right;
+    margin-right: 40px;
+    font-size: 1.1em;
+}
+
+.navbar ul.nav-links li a.active:hover {
+    background-color: #36452B; 
+    transition: color 0.3s ease;
+    border-radius: 5px;
+    padding: 11px 24px;
+    font-size: 1.5em;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+ul.nav-links {
+    list-style-type: none;
+    display: flex;
+    gap: 60px;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar a {
+    font-family: Antic Didone, serif;
+    color: #293132;
+    text-decoration: none;
+    font-weight: thin;
+    padding: 8px 16px;
+}
+
+.navbar a:hover {
+    color: white;
+    background-color: #36452B;
+    border-radius: 4px;
+    transition: color 0.3s ease;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 1.5em;
+}
+
+.title {
+    text-align: center;
+    font-size: 3em;
+    margin-top: 50px;
+    margin-left: 780px;
+    font-family: Aboreto, sans-serif;
+    color: #36452B;
+}
+
+p {
+    text-align: center;
+    font-size: 1.0em;
+    margin-top: 10px;
+    margin-left: 850px;
+    margin-right: 90px;
+    font-family: Antic Didone, serif;
+}

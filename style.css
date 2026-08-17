@@ -38,13 +38,17 @@ header {
     font-size: 1.1em;
 }
 
-.navbar ul.nav-links li a.active {
+.navbar ul.nav-links li a.active:hover {
     background-color: #36452B; 
-    color: white;            
-    padding: 8px 16px;        
-    border-radius: 4px;       
-    font-weight: 500;
+    transition: color 0.3s ease;
+    border-radius: 5px;
+    padding: 11px 24px;
+    font-size: 1.5em;
+    cursor: pointer;
+    transition: all 0.3s ease;
 }
+
+
 
 ul.nav-links {
     list-style-type: none;
@@ -59,6 +63,18 @@ ul.nav-links {
     color: #293132;
     text-decoration: none;
     font-weight: thin;
+    padding: 8px 16px;
+}
+
+.navbar a:hover {
+    color: white;
+    background-color: #36452B;
+    border-radius: 4px;
+    transition: color 0.3s ease;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 1.5em;
+
 }
 
 main{
@@ -90,7 +106,7 @@ h1 {
 button {
     font-family: 'Antic Didone', serif;
     background-color: #36452B;
-    border: 1px solid #293132;
+    border: 1px solid #36452B;
     color: white    ;
     border-radius: 5px;
     padding: 11px 24px;
