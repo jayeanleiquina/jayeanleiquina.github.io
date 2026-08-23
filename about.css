@@ -74,9 +74,18 @@ ul.nav-links {
     font-size: 1.5em;
 }
 
+.div.content {
+    max-width: 800px;
+    margin-top: 2.5em;
+    padding: 20px;
+    background-color: #F5F5F5;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
 .title {
     text-align: center;
-    font-size: 3em;
+    font-size: 3.5em;
     margin-top: 50px;
     margin-left: 780px;
     font-family: Aboreto, sans-serif;
@@ -86,8 +95,9 @@ ul.nav-links {
 p {
     text-align: center;
     font-size: 1.0em;
-    margin-top: 10px;
+    margin-top: -20px;
     margin-left: 850px;
     margin-right: 90px;
     font-family: Antic Didone, serif;
+    line-height: 1.5;
 }
