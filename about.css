@@ -74,30 +74,48 @@ ul.nav-links {
     font-size: 1.5em;
 }
 
-.div.content {
-    max-width: 800px;
-    margin-top: 2.5em;
+main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 40px 80px;
+}
+
+.content {
+    max-width: 550px;
+    position: absolute;
+    right: 60px;
+    top: 55%;
+    transform: translateY(-50%);
     padding: 20px;
-    background-color: #F5F5F5;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    flex: 1;
 }
 
 .title {
     text-align: center;
     font-size: 3.5em;
-    margin-top: 50px;
-    margin-left: 780px;
     font-family: Aboreto, sans-serif;
     color: #36452B;
 }
 
 p {
-    text-align: center;
     font-size: 1.0em;
-    margin-top: -20px;
-    margin-left: 850px;
-    margin-right: 90px;
     font-family: Antic Didone, serif;
-    line-height: 1.5;
+    line-height: 1.7;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 0.1;
+}
+
+.dna-png img {
+    max-width: 800%;
+    height: auto;
+    margin-top: -230px;
+    margin-left: 50px;
+    transform: rotate(-10deg);
 }
