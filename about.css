@@ -107,15 +107,14 @@ p {
 
 .images {
     display: flex;
-    justify-content: center;
     align-items: center;
     flex: 0.1;
 }
 
 .dna-png img {
-    max-width: 800%;
+    max-width: 850%;
     height: auto;
-    margin-top: -230px;
-    margin-left: 50px;
-    transform: rotate(-10deg);
+    margin-top: -14rem;
+    margin-left: -9.3rem;
+    transform: rotate(-15deg);
 }
