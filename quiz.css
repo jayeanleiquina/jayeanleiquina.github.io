@@ -114,7 +114,7 @@ button {
     text-transform: uppercase;
     letter-spacing: 2px;
     cursor: pointer;
-    transition: all 0.5s ease;
+    transition: all 0.3s ease;
 }
 
 button:hover {
@@ -134,7 +134,7 @@ button:hover {
     font-weight: thin;
     display: inline-block;
     margin-top: 15px;
-    transition: all 0.5s ease;
+    transition: all 0.3s ease;
 }
 
 .link a:hover {
@@ -144,5 +144,5 @@ button:hover {
     cursor: pointer;
     transform: scale(1.5);
     border-bottom: 1px solid #36452B;
-    transition: all 0.5s ease;
+    transition: all 0.3s ease;
 }
