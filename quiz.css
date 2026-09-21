@@ -31,14 +31,13 @@ header {
     text-decoration: none;
     color: #5A5A5A;
     display: inline-block;
-    transform-origin: center;
     transition: all 0.3s ease;
 }
 
 #banner a:hover {
     color: #36452B;
     font-size: 1.3em;
-    transform: scale(1.1);
+    transform: scale(0.9);
 }
 
 .navbar {
@@ -56,8 +55,6 @@ header {
     cursor: pointer;
     transition: all 0.3s ease;
 }
-
-
 
 ul.nav-links {
     list-style-type: none;
@@ -95,11 +92,12 @@ ul.nav-links {
     width: 100vw;
     box-sizing: border-box;
     min-height: 55vh;
+    margin-top: 30px;
 }
 
 h1 {
     font-size: 3.5em;
-    margin: 0 0 30px 0;
+    margin: 0 0 15px 0;
     color: #293132;
     letter-spacing: 2px;
     width: 100%;
@@ -122,7 +120,7 @@ button {
 button:hover {
     background-color: #293132;;
     color: white;
-    transform: scale(1.1);
+    transform: scale(1.2);
 }
 
 .link {
