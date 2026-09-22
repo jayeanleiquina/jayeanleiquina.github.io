@@ -90,20 +90,28 @@ ul.nav-links {
     margin-right: 7px;
     display: flex;
     flex-direction: column;
-    grid-template-columns: repeat(2, 1fr);
     grid-gap: 20px;
     padding: 20px;
 }
 
 .topic-1 {
-    background-color: #818263;
+    /* background-color: #DCD4C1; */
+    display: flex;
+    flex-direction: column;
     padding: 0.1em;
     border-radius: 1em;
 }
 
 .rectangle-1, .rectangle-2, .rectangle-3, .rectangle-4 {
   display: block;
-  width: 6em;
-  height: 25em;
+  width: 20em;
+  height:15em;
   background-color: #818263;
+}
+
+.image-1, .image-2, .image-3, .image-4 {
+  width: 2em;
+  height: 2em;
+  object-fit: cover;
+  border-radius: 1em;
 }
