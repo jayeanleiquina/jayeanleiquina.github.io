@@ -83,13 +83,27 @@ ul.nav-links {
     transition: all 0.3s ease;
 }
 
+/* end of navbar stuff */
+
 .topics-container {
     text-align: center;
     margin-right: 7px;
-    font-size: 1.5em;
-    color: #5A5A5A;
-    display: grid;
+    display: flex;
+    flex-direction: column;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 20px;
     padding: 20px;
+}
+
+.topic-1 {
+    background-color: #818263;
+    padding: 0.1em;
+    border-radius: 1em;
+}
+
+.rectangle-1, .rectangle-2, .rectangle-3, .rectangle-4 {
+  display: block;
+  width: 6em;
+  height: 25em;
+  background-color: #818263;
 }
