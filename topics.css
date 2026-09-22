@@ -85,33 +85,100 @@ ul.nav-links {
 
 /* end of navbar stuff */
 
-.topics-container {
+h1 {
+    font-family: Aboreto, sans-serif;
+    font-size: 2.3em;
     text-align: center;
-    margin-right: 7px;
-    display: flex;
-    flex-direction: column;
-    grid-gap: 20px;
-    padding: 20px;
+    margin-top: -0.1em;
+    margin-bottom: 0.5em;
+    color: #36452B;
 }
 
-.topic-1 {
-    /* background-color: #DCD4C1; */
+.topics-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    gap: 75px;
+    width: 100%;
+    padding: 5px 15px;
+}
+
+.topic-1, .topic-2, .topic-3, .topic-4 {
+    position: relative;
     display: flex;
     flex-direction: column;
-    padding: 0.1em;
-    border-radius: 1em;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+
+    background-color: #818263;
+    border-radius: 1.5em;
+    padding: 1.9em;
+    box-sizing: border-box;
+    width: 15em;
+    min-height: 30em;
+    transition: transform 0.3s ease, border-radius 0.3s ease;
+}
+
+.topic-1 img, .topic-2 img, .topic-3 img, .topic-4 img {
+    width: 85%;
+    object-fit: cover;
+    border-radius: 2em;
+}
+
+.topic-1:hover .text1 a,
+.topic-2:hover .text2 a,
+.topic-3:hover .text3 a,
+.topic-4:hover .text4 a {
+    transform: scale(1.2);
+    border-radius: 2em;
+    color: white;
+    font-weight: bold;
+}
+
+.topic-1:hover, 
+.topic-2:hover, 
+.topic-3:hover, 
+.topic-4:hover {
+    transform: scale(1.09);
+    border-radius: 2em;
 }
 
 .rectangle-1, .rectangle-2, .rectangle-3, .rectangle-4 {
-  display: block;
-  width: 20em;
-  height:15em;
-  background-color: #818263;
+    display: block;
+    height: 14em;
+    width: 16em;
+    background-color: #818263;
+    cursor: pointer;
+    transition: transform 0.3s ease, border-radius 0.3s ease;
 }
 
-.image-1, .image-2, .image-3, .image-4 {
-  width: 2em;
-  height: 2em;
-  object-fit: cover;
-  border-radius: 1em;
+.text1, .text2, .text3, .text4 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2em;
+    padding: 13px;
+    box-sizing: border-box;
+    text-align: center;
+    pointer-events: none;
+}
+
+.text1 a, .text2 a, .text3 a, .text4 a {
+    text-decoration: none;
+    color: #293132;
+    font-family: Antic Didone, serif;
+    font-size: 1.1em;
+    text-align: center;
+    transition: all 0.3s ease;
+    letter-spacing: 1px;
+    pointer-events: auto;
+    cursor: pointer;
 }

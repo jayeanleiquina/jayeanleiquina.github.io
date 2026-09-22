@@ -83,6 +83,8 @@ ul.nav-links {
     transition: all 0.3s ease;
 }
 
+/* end of navbar stuff */
+
 main {
     display: flex;
     align-items: center;
