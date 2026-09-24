@@ -82,3 +82,50 @@ ul.nav-links {
     font-size: 1.5em;
     transition: all 0.5s ease;
 }
+
+.image-container {
+    width: 25em;
+    max-width: 500px;
+    margin: 2em auto;
+    margin-left: 5em;
+    padding: 0 20px;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.about-container {
+    max-width: 45em;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: -35em auto;
+    margin-right: 6em;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 4em;
+    margin-bottom: 40px;
+    color: #36452B;
+}
+
+p {
+    font-size: 1.2em;
+    font-family: Antic Didone, serif;
+    font-weight: medium;
+    line-height: 1.6;
+    color: #5A5A5A;
+    margin-bottom: 20px;
+}
+
+.arrow-container {
+    text-align: center;
+    margin-top: 40em;
+    width: 3em;
+    padding-left: 80em;
+}
+

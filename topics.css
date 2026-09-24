@@ -110,7 +110,6 @@ h1 {
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    overflow: hidden;
 
     background-color: #818263;
     border-radius: 1.5em;
