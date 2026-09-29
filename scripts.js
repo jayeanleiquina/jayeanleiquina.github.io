@@ -1,10 +1,5 @@
-<script>
-    const navLinks = document.querySelectorAll('.nav-links li a');
+const startQuizBtn = document.getElementById("start-quiz-button");
 
-    navLinks.forEach(link => {
-        link.addEventListener('click', function() {
-            navLinks.forEach(navLink => navLink.classList.remove('active'));
-            this.classList.add('active');
-        });
-    });
-</script>
+startQuizBtn.addEventListener("click", () => {
+    window.location.href = "questions.html";
+});
