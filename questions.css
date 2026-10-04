@@ -93,3 +93,29 @@ ul.nav-links {
 .quiz{
     padding: 20px 0;
 }
+
+.quiz h2{
+    font-size: 2em;
+    color:#293132;
+    font-weight: 600;
+}
+
+.btn{
+    background-color: #36452B;
+    color:#DCD4C1;
+    font-weight:500;
+    width: 100%;
+    border: 1px solid #36452B;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.btn:hover {
+    background-color: #293132;
+    color:#DCD4C1;
+    transition: all 0.3s ease;
+}
