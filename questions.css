@@ -82,3 +82,14 @@ ul.nav-links {
     font-size: 1.5em;
     transition: all 0.5s ease;
 }
+
+.app h1{
+    font-weight: 25px;
+    color:#293132;
+    font-size: 2.5em;
+    padding-bottom: 30px;
+}
+
+.quiz{
+    padding: 20px 0;
+}
