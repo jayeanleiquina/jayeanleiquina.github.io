@@ -84,7 +84,7 @@ ul.nav-links {
 }
 
 .app h1{
-    font-weight: 25px;
+    font-size: 25px;
     color:#293132;
     font-size: 2.5em;
     padding-bottom: 30px;
@@ -114,8 +114,21 @@ ul.nav-links {
 }
 
 
-.btn:hover {
+.btn:hover{
     background-color: #293132;
     color:#DCD4C1;
     transition: all 0.3s ease;
+}
+
+#next-btn{
+    background-color: #293132;
+    color:#DCD4C1;
+    font-weight:500;
+    width: 150px;
+    border: 0;
+    padding: 10px;
+    margin: 20px auto 0;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none;
 }
