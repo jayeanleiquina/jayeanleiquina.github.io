@@ -117,18 +117,17 @@ ul.nav-links {
 .btn:hover{
     background-color: #293132;
     color:#DCD4C1;
-    transition: all 0.3s ease;
 }
 
 #next-btn{
     background-color: #293132;
     color:#DCD4C1;
-    font-weight:500;
+    font-weight: 500;
     width: 150px;
     border: 0;
     padding: 10px;
     margin: 20px auto 0;
-    border-radius: 5px;
+    border-radius: 4px;
     cursor: pointer;
     display: none;
 }
