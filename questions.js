@@ -31,9 +31,63 @@ const questions = [
         question: "What is sexual reproduction?",
         answers: [
             { text: "A type of reproduction involving 2 parents in which the offpsring produced are genetically different to each other", correct: true },
-            { text: "The building blocks of your body, Made up of long chains of amino acids", correct: false },
+            { text: "Reproduction that happens in the nucleus", correct: false },
             { text: "Reproduction involving only one parent resulting in offspring that are genetically identical", correct: false },
-            { text: "A segment of DNA that codes for a specific protein/trait", correct: true }
+            { text: "A type of reproduction involving three parents, causing it to have two genders", correct: false }
+        ]
+    },
+    {
+        question: "What is meiosis",
+        answers: [
+            { text: "Having a single set of chromosomes occurs in the sex cells", correct: false },
+            { text: "The process where a cell divides to produce unique gametes with half the number of chromosomes", correct: true },
+            { text: "The process where a single cell divides into two identical daughter cells, for growth and repair", correct: false },
+            { text: "Having a pair of each chromosome and occurs in the body cells", correct: false }
+        ]
+    },
+    {
+        question: "What is mitosis?",
+        answers: [
+            { text: "The process where a cell divides to produce unique gametes with half the number of chromosomes", correct: false },
+            { text: "Having a single set of chromosomes occurs in the sex cells", correct: false },
+            { text: "Having a pair of each chromosome and occurs in the body cells", correct: false },
+            { text: "The process where a single cell divides into two identical daughter cells, for growth and repair", correct: true }
+        ]
+    },
+    {
+        question: "What is natural selection?",
+        answers: [
+            { text: "The process where organisms better adapted to their environment are more likely to survive and reproduce, passing on those advantageous traits", correct: true },
+            { text: "A group of individuals of the same species living in the same area at the same time", correct: false },
+            { text: "Change in the numbers/types of alleles in a population over time", correct: false },
+            { text: "The difference between individuals within a population due to the alleles they possess", correct: false }
+        ]
+    },
+    {
+        question: "What is mutation?",
+        answers: [
+            { text: "Differences that are inherited genetically and are passed onto offspring", correct: false },
+            { text: "A characteristic that changes gradually over a range of values", correct: false },
+            { text: "A random, permanent change in the base sequence of the DNA", correct: true },
+            { text: "Differences that occur due to the environment and that are not passed onto offspring", correct: false }
+        ]
+    },
+    {
+        question: "What is genetic tracking?",
+        answers: [
+            { text: "A technique by which individuals can be compared to others by their genetic markers or DNA banding patterns", correct: false },
+            { text: "A gene or sequence of bases with a known location on a chromosome", correct: false },
+            { text: "A method for determining and then tracking  the inheritance of a particular gene through generations of organisms or within a population", correct: true },
+            { text: "This type of screening is used to identify individuals who carry a genetic mutation that could be passed on to their children.", correct: false }
+        ]
+    },
+    {
+        question: "What is DNA sequencing?",
+        answers: [
+            { text: "Small sections in the DNA that repeat.", correct: false },
+            { text: "The process of identifying the exact order of nucleotide bases in a strand of DNA", correct: true },
+            { text: "A method used to identify species based on the base sequence of the genetic marker.", correct: false },
+            { text: "The process of sequencing a section of DNA to identify mutations in genes that can cause or increase the risk of a disease such as cancer.", correct: false }
         ]
     }
 ]
