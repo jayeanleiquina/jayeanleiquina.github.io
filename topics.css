@@ -111,7 +111,7 @@ h1 {
     align-items: center;
     justify-content: space-between;
 
-    background-color: #818263;
+    background-color: #565647;
     border-radius: 1.5em;
     padding: 1.9em;
     box-sizing: border-box;
@@ -171,7 +171,7 @@ h1 {
 
 .text1 a, .text2 a, .text3 a, .text4 a {
     text-decoration: none;
-    color: #293132;
+    color: #ffffff;
     font-family: Antic Didone, serif;
     font-size: 1.1em;
     text-align: center;

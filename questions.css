@@ -68,7 +68,6 @@ ul.nav-links {
     font-family: Antic Didone, serif;
     color: #293132;
     text-decoration: none;
-    font-weight: thin;
     padding: 8px 16px;
     transition: all 0.3s ease;
 }
@@ -106,7 +105,7 @@ ul.nav-links {
     background-color: #818263;
     color:#293132;
     font-weight: 500;
-    font-size: 2em;
+    font-size: 1.2em;
     font-family: Antic Didone, sans-serif;
     width: 45%;
     border: 2px solid #818263;
@@ -132,7 +131,7 @@ ul.nav-links {
 
 #next-btn{
     background-color: #293132;
-    color:#DCD4C1;
+    color:#ffffff;
     font-weight: 500;
     font-family: Antic Didone, sans-serif;
     width: 150px;
@@ -146,24 +145,24 @@ ul.nav-links {
 
 .correct{
     background: #1C3E03;
-    color: #DCD4C1;
+    color: #ffffff;
     border: 2px solid #1C3E03;
 }
 
 .correct:hover{
     background: #1C3E03;
-    color: #DCD4C1;
+    color: #ffffff;
     border: 2px solid #1C3E03;
 }
 
 .incorrect{
     background: #4A0404;
-    color: #DCD4C1;
+    color: #ffffff;
     border: 2px solid #4A0404;
 }
 
 .incorrect:hover{
     background: #4A0404;
-    color: #DCD4C1;
+    color: #ffffff;
     border: 2px solid #4A0404;
 }
