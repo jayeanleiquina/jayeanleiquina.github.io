@@ -104,7 +104,7 @@ ul.nav-links {
 .btn{
     background-color: #818263;
     color:#293132;
-    font-weight: 500;
+    font-weight: bold;
     font-size: 1.2em;
     font-family: Antic Didone, sans-serif;
     width: 45%;
@@ -115,12 +115,13 @@ ul.nav-links {
     border-radius: 5px;
     cursor: pointer;
     transition: all 0.3s ease;
+    text-transform: uppercase;
 }
 
 
 .btn:hover:not([disabled]){
     background-color: #293132;
-    color:#DCD4C1;
+    color:#ffffff;
     border: 2px solid #293132;
     width: 50%;
 }
