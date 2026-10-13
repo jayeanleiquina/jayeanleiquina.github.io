@@ -68,6 +68,7 @@ ul.nav-links {
     font-family: Antic Didone, serif;
     color: #293132;
     text-decoration: none;
+    font-weight: thin;
     padding: 8px 16px;
     transition: all 0.3s ease;
 }
@@ -105,17 +106,25 @@ ul.nav-links {
     background-color: #818263;
     color:#293132;
     font-weight: bold;
-    font-size: 1.2em;
+    font-size: 1.3em;
     font-family: Antic Didone, sans-serif;
+    text-transform: uppercase;
     width: 45%;
     border: 2px solid #818263;
-    padding: 50px;
+
+    padding: 20px;
+    height: 180px;
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
     margin: 10px;
     text-align: center;
     border-radius: 5px;
     cursor: pointer;
     transition: all 0.3s ease;
-    text-transform: uppercase;
+    box-sizing: border-box;
 }
 
 
@@ -135,6 +144,8 @@ ul.nav-links {
     color:#ffffff;
     font-weight: 500;
     font-family: Antic Didone, sans-serif;
+    text-transform: uppercase;
+    font-size: 1.3em;
     width: 150px;
     border: 0;
     padding: 10px;
@@ -142,6 +153,12 @@ ul.nav-links {
     border-radius: 4px;
     cursor: pointer;
     display: none ;
+    transition: all 0.3s ease;
+}
+
+#next-btn:hover{
+    background-color: #36452B;
+    color:#ffffff;
 }
 
 .correct{
