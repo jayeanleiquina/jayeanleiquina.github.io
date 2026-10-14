@@ -111,6 +111,7 @@ ul.nav-links {
     text-transform: uppercase;
     width: 45%;
     border: 2px solid #818263;
+    vertical-align: top;
 
     padding: 20px;
     height: 180px;
