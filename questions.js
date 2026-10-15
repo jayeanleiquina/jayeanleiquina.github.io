@@ -30,8 +30,8 @@ const questions = [
     {
         question: "What is sexual reproduction?",
         answers: [
-            { text: "A type of reproduction involving 2 parents in which the offpsring produced are genetically different to each other", correct: true },
-            { text: "Reproduction that happens in the nucleus", correct: false },
+            { text: "A type of reproduction involving 2 parents, genetically identical children", correct: true },
+            { text: "Reproduction that happens in the nucleus, which means that it can only be a bacteria", correct: false },
             { text: "Reproduction involving only one parent resulting in offspring that are genetically identical", correct: false },
             { text: "A type of reproduction involving three parents, causing it to have two genders", correct: false }
         ]
@@ -58,9 +58,9 @@ const questions = [
         question: "What is natural selection?",
         answers: [
             { text: "The process where organisms better adapted to their environment are more likely to survive and reproduce, passing on those advantageous traits", correct: true },
-            { text: "A group of individuals of the same species living in the same area at the same time", correct: false },
-            { text: "Change in the numbers/types of alleles in a population over time", correct: false },
-            { text: "The difference between individuals within a population due to the alleles they possess", correct: false }
+            { text: "A group of individuals of the same species living in the same area at the same time, which allows them to reproduce and be happy", correct: false },
+            { text: "Change in the numbers/types of alleles in a population over time, which fluctuates due to random chance", correct: false },
+            { text: "The difference between individuals within a population due to the alleles they possess, leading to an argument with the other species because of their different traits", correct: false }
         ]
     },
     {
@@ -77,7 +77,7 @@ const questions = [
         answers: [
             { text: "A technique by which individuals can be compared to others by their genetic markers or DNA banding patterns", correct: false },
             { text: "A gene or sequence of bases with a known location on a chromosome", correct: false },
-            { text: "A method for determining and then tracking  the inheritance of a particular gene through generations of organisms or within a population", correct: true },
+            { text: "A method for tracking the inheritance of a particular gene through generations of organisms or within a population", correct: true },
             { text: "This type of screening is used to identify individuals who carry a genetic mutation that could be passed on to their children.", correct: false }
         ]
     },

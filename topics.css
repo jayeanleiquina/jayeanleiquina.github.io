@@ -105,13 +105,7 @@ h1 {
 }
 
 .topic-1, .topic-2, .topic-3, .topic-4 {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-
-    background-color: #565647;
+    background-color: #818263;
     border-radius: 1.5em;
     padding: 1.9em;
     box-sizing: border-box;
@@ -120,19 +114,22 @@ h1 {
     transition: transform 0.3s ease, border-radius 0.3s ease;
 }
 
-.topic-1 img, .topic-2 img, .topic-3 img, .topic-4 img {
-    width: 85%;
-    object-fit: cover;
-    border-radius: 2em;
+.topics-container a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    padding: 1.9em;
+    box-sizing: border-box;
+    text-decoration: none;
 }
 
-.topic-1:hover .text1 a,
-.topic-2:hover .text2 a,
-.topic-3:hover .text3 a,
-.topic-4:hover .text4 a {
-    transform: scale(1.2);
+.topics-container img {
+    width: 130%;
+    object-fit: cover;
     border-radius: 2em;
-    color: white;
 }
 
 .topic-1:hover, 
@@ -143,40 +140,31 @@ h1 {
     border-radius: 2em;
 }
 
-.rectangle-1, .rectangle-2, .rectangle-3, .rectangle-4 {
-    display: block;
-    height: 14em;
-    width: 16em;
-    background-color: #818263;
-    cursor: pointer;
-    transition: transform 0.3s ease, border-radius 0.3s ease;
-}
-
 .text1, .text2, .text3, .text4 {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    width: 100%;
-    height: 100%;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 2em;
-    padding: 13px;
-    box-sizing: border-box;
-    text-align: center;
-    pointer-events: none;
-}
-
-.text1 a, .text2 a, .text3 a, .text4 a {
-    text-decoration: none;
     color: #ffffff;
     font-family: Antic Didone, serif;
-    font-size: 1.1em;
+    font-size: 1.3em;
     text-align: center;
-    transition: all 0.3s ease;
     letter-spacing: 1px;
-    pointer-events: auto;
-    cursor: pointer;
+    
+    justify-content: center;
+    align-items: center;
+    width: 230%;
+
+    padding-top: 1.9em;
+    padding: 11px;
+    margin-top: 1em;
+    margin-bottom: auto;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
 }
+
+.topic-1 a, .topic-2 a, .topic-3 a, .topic-4 a {
+    text-decoration: none;
+    color: #ffffff;
+    width: 100%;
+    height: 100%;
+}4
+
+
+
