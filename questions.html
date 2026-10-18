@@ -13,6 +13,9 @@
     <link rel="icon" href="fav icon 3.png" type="image/x-icon">
 </head>
 <body>
+    <!--  Button sound audio  -->
+    <audio id="button-sound" src="button.wav"></audio>
+    
 
     <div id="half">
 
@@ -23,10 +26,10 @@
 
             <nav class="navbar">
                  <ul class="nav-links">
-                    <li><a href="index.html">home</a></li>
-                    <li><a href="about.html" class="active">about</a></li>
-                    <li><a href="quiz.html">start quiz</a></li>
-                    <li><a href="topics.html">topics</a></li>
+                    <li><a href="index.html" class="sound">home</a></li>
+                    <li><a href="about.html" class="sound">about</a></li>
+                    <li><a href="quiz.html" class="sound">start quiz</a></li>
+                    <li><a href="topics.html" class="sound">topics</a></li>
                 </ul>
             </nav>
         </header>
@@ -40,19 +43,17 @@
                     <h2 id="question">What does DNA stand for?</h2>
                     
                     <div id="answer-buttons">
-                        <button class="btn">Deoxyribonucleic Acid</button>
-                        <button class="btn">Dynamic Nucleic Acid</button>
-                        <button class="btn">Duplicated Nucleic Acid</button>
-                        <button class="btn">Deoxyribose Nucleic Acid </button>
+                        <button class="btn sound">Deoxyribonucleic Acid</button>
+                        <button class="btn sound">Dynamic Nucleic Acid</button>
+                        <button class="btn sound">Duplicated Nucleic Acid</button>
+                        <button class="btn sound">Deoxyribose Nucleic Acid </button>
                     </div>
                     
-                    <button id="next-btn">Next</button>
+                    <button id="next-btn" class="sound">Next</button>
                 </div>
             </div>
         </main>
-
         <script src="questions.js"></script>
-        
     </div>
 
 </body>

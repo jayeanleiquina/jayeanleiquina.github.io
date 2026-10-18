@@ -12,6 +12,9 @@
     <link rel="icon" href="fav icon 3.png" type="image/x-icon">
 </head>
 <body>
+    <!--  Button sound audio  -->
+    <audio id="button-sound" src="button.wav"></audio>
+    
     <div id="half">
 
     <header>
@@ -21,10 +24,10 @@
 
     <nav class="navbar">
          <ul class="nav-links">
-            <li><a href="index.html">home</a></li>
-            <li><a href="about.html" class="active">about</a></li>
-            <li><a href="quiz.html">start quiz</a></li>
-            <li><a href="topics.html">topics</a></li>
+            <li><a href="index.html" class="sound">home</a></li>
+            <li><a href="about.html" class="sound">about</a></li>
+            <li><a href="quiz.html" class="sound">start quiz</a></li>
+            <li><a href="topics.html" class="sound">topics</a></li>
         </ul>
     </nav>
     </header>
@@ -37,28 +40,28 @@
 
         <div class="topics-container">
             <div class="topic-1">
-                <a href="topic1.html">
+                <a href="topic1.html" class="sound">
                 <img src="images/image-9.png" alt="Genetic Variation Image">
                 <div class="text1">GENETIC VARIATION</div>
                 </a>
             </div>
 
             <div class="topic-2">
-                <a href="topic2.html">
+                <a href="topic2.html" class="sound">
                 <img src="images/image%2010.png" alt="Tracking Genes & Reproduction Image">
                 <div class="text2">TRACKING GENES & REPRODUCTION</div>
                 </a>
             </div>
 
             <div class="topic-3">
-                <a href="topic3.html">
+                <a href="topic3.html" class="sound">
                 <img src="images/image%2011.png" alt="Population Genetics Image">
                 <div class="text3">POPULATION GENETICS</div>
                 </a>
             </div>
 
             <div class="topic-4">
-                <a href="topic4.html">
+                <a href="topic4.html" class="sound">
                 <img src="images/image%2012.png" alt="Genetic Technology Image">
                 <div class="text4">GENETIC TECHNOLOGY</div>
                 </a>
@@ -70,3 +73,7 @@
 
     </footer>
     </div>
+    <script src="questions.js"></script>
+</body>
+</head>
+</html>

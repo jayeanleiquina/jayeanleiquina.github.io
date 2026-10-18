@@ -7,13 +7,13 @@
     <link rel="stylesheet" href="topic2.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Aboreto&family=Noto+Serif+Display:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Aboreto&family=Antic+Didone&family=Noto+Serif+Display:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="icon" href="fav icon 3.png" type="image/x-icon">
 </head>
 <body>
+    <!--  Button sound audio  -->
+    <audio id="button-sound" src="button.wav"></audio>
+    
     <div id="half">
 
     <header>
@@ -46,19 +46,23 @@
         </div>
 
         <div class="arrow-right-container">
-            <a href="topic3.html">
+            <a href="topic3.html" class="sound">
             <img src ="images/arrow%202.png" alt="Arrow pointing right">
             </a>
         </div>
 
         <div class="arrow-left-container">
-            <a href="topic1.html">
+            <a href="topic1.html" class="sound">
             <img src ="images/arrow%203.png" alt="Arrow pointing left">
             </a>
         </div>
 
         <div class="button-container">
-            <a href="topics.html">GO BACK</a>
+            <a href="topics.html" class="sound">GO BACK</a>
         </div>
     </main>
+    <script src="questions.js"></script>
 </body>
+</head>
+</html>
+

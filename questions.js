@@ -1,3 +1,46 @@
+//sound effects
+document.addEventListener('DOMContentLoaded', function() {
+    const hoverSound = document.getElementById('button-sound');
+    const clickSound = document.getElementById('button-sound');
+    const soundLinks = document.querySelectorAll('.sound');
+
+    soundLinks.forEach(link => {
+        link.addEventListener('mouseenter', () => {
+            hoverSound.currentTime = 0;
+            hoverSound.play().catch(() => {
+                console.log('Hover sound waiting for initial user interaction.');
+            });
+        });
+
+        link.addEventListener('click', function(event) {
+            const destination = this.getAttribute('href');
+            if(!destination || destination === '#' || destination.startsWith('javascript:')) {
+                return;
+            }
+            event.preventDefault();
+            clickSound.currentTime = 0;
+            clickSound.play().catch(() => {});
+            clickSound.onended = () => {
+                window.location.href = destination
+
+            };
+        setTimeout(() => {
+            window.location.href = destination;
+         },250);
+        });  
+    });
+    const soundButtons = document.querySelectorAll('button.sound');
+    soundButtons.forEach(btn => {
+        btn.addEventListener('click', () => {
+            clickSound.currentTime = 0;
+            clickSound.play().catch(() => {});
+        });
+    });
+
+});
+
+//quiz question starts
+
 const questions = [
     {
         question: "What does DNA stand for?",

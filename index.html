@@ -13,6 +13,9 @@
     <link rel="icon" href="fav icon 3.png" type="image/x-icon">
 </head>
 <body>
+    <!--  Button sound audio  -->
+    <audio id="button-sound" src="button.wav"></audio>
+
     <div id="half">
 
     <header>
@@ -22,21 +25,21 @@
 
     <nav class="navbar">
          <ul class="nav-links">
-            <li><a href="index.html" class="active">home</a></li>
-            <li><a href="about.html">about</a></li>
-            <li><a href="quiz.html">start quiz</a></li>
-            <li><a href="topics.html">topics</a></li>
+            <li><a href="index.html" class="sound">home</a></li>
+            <li><a href="about.html" class="sound">about</a></li>
+            <li><a href="quiz.html" class="sound">start quiz</a></li>
+            <li><a href="topics.html" class="sound">topics</a></li>
         </ul>
     </nav>
     </header>
     
-<!-- end of navbar stuff -->
+    <!-- end of navbar stuff -->
 
     <main>
         <div class="quiz-container">
             <h1>Test your knowledge</h1>
             <a href="quiz.html">
-              <button>Go To Quiz</button>
+              <button class="sound">Go To Quiz</button>
             </a>
         </div>
 
@@ -50,6 +53,7 @@
     <footer>
 
     </footer>
-    </div>
+    <script src="questions.js"></script>
+    </div>  
 </body>
 </html>

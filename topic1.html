@@ -7,13 +7,13 @@
     <link rel="stylesheet" href="topic1.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Aboreto&family=Noto+Serif+Display:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Aboreto&family=Antic+Didone&family=Noto+Serif+Display:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="icon" href="fav icon 3.png" type="image/x-icon">
 </head>
 <body>
+    <!--  Button sound audio  -->
+    <audio id="button-sound" src="button.wav"></audio>
+    
     <div id="half">
 
     <header>
@@ -23,10 +23,10 @@
 
     <nav class="navbar">
          <ul class="nav-links">
-            <li><a href="index.html">home</a></li>
-            <li><a href="about.html" class="active">about</a></li>
-            <li><a href="quiz.html">start quiz</a></li>
-            <li><a href="topics.html">topics</a></li>
+            <li><a href="index.html" class="sound">home</a></li>
+            <li><a href="about.html" class="sound">about</a></li>
+            <li><a href="quiz.html" class="sound">start quiz</a></li>
+            <li><a href="topics.html" class="sound">topics</a></li>
         </ul>
     </nav>
     </header>
@@ -47,13 +47,15 @@
         </div>
 
         <div class="arrow-container">
-            <a href="topic2.html">
+            <a href="topic2.html" class="sound">
             <img src ="images/arrow 2.png" alt="Arrow pointing right">
             </a>
         </div>
 
         <div class="button-container">
-            <a href="topics.html">GO BACK</a>
+            <a href="topics.html" class="sound">GO BACK</a>
         </div>
     </main>
+    <script src="questions.js"></script>
 </body>
+</html>
