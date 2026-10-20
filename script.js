@@ -81,7 +81,7 @@ const questions = [
         ]
     },
     {
-        question: "What is meiosis",
+        question: "What is meiosis?",
         answers: [
             { text: "Having a single set of chromosomes occurs in the sex cells", correct: false },
             { text: "The process where a cell divides to produce unique gametes with half the number of chromosomes", correct: true },
