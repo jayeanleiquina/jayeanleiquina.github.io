@@ -1,6 +1,7 @@
+
 //sound effects
 document.addEventListener('DOMContentLoaded', function() {
-    const hoverSound = document.getElementById('button-sound');
+    const hoverSound = document.getElementById('hover-sound');
     const clickSound = document.getElementById('button-sound');
     const soundLinks = document.querySelectorAll('.sound');
 
