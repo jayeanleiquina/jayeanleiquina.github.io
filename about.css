@@ -106,12 +106,14 @@ main {
 .title {
     text-align: center;
     font-size: 3.5em;
+    font-weight: 400;
     font-family: Aboreto, sans-serif;
     color: #36452B;
 }
 
 p {
     font-size: 1.0em;
+    font-weight: 400;
     font-family: Antic Didone, serif;
     line-height: 1.7;
 }
