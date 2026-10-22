@@ -112,23 +112,28 @@ h1 {
     color: #293132;
 }
 
-button {
+.quiz-container a {
+
     font-family: 'Antic Didone', serif;
+    font-size: 1.8em;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 1px;
+
     background-color: #36452B;
     border: 1px solid #36452B;
-    color: white    ;
+    color: white;
+
+    display: inline-block;
     border-radius: 5px;
     padding: 11px 24px;
     margin-top: 5px;
     margin-left: 200px;
-    font-size: 1.8em;
-    text-transform: uppercase;
-    letter-spacing: 1px;
     cursor: pointer;
     transition: all 0.3s ease;
 }
 
-button:hover {
+.quiz-container a:hover {
     background-color: #293132;
     color: white;
     transform: scale(1.2);
