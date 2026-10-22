@@ -106,7 +106,7 @@ h1 {
     width: 100%;
 }
 
-button {
+#start-quiz-button {
     font-family: 'Antic Didone', serif;
     background-color: #36452B;
     border: 1px solid #36452B;
@@ -115,12 +115,13 @@ button {
     padding: 14px 32px;
     font-size: 1.8em;
     text-transform: uppercase;
+    text-decoration: none;
     letter-spacing: 2px;
     cursor: pointer;
     transition: all 0.3s ease;
 }
 
-button:hover {
+#start-quiz-button:hover {
     background-color: #293132;;
     color: white;
     transform: scale(1.2);
