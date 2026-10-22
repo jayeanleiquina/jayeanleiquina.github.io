@@ -98,8 +98,9 @@ ul.nav-links {
 
 .quiz h2{
     font-size: 3em;
+    font-family: Aboreto, sans-serif;
+    font-weight: 400;
     color:#293132;
-    font-weight: 600;
 }
 
 .btn{
