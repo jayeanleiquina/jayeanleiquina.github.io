@@ -119,6 +119,8 @@ main {
 
 h1 {
     font-size: 3.5em;
+    font-family: Aboreto, sans-serif;
+    font-weight: 400;
     margin-bottom: 40px;
     color: #36452B;
     margin-top: 0;
