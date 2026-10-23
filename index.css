@@ -53,8 +53,7 @@ header {
     padding: 11px 24px;
     font-size: 1.5em;
     cursor: pointer;
-    transition: all 0.3s 
-    ease;
+    transition: all 0.3s ease;
 }
 
 ul.nav-links {
